@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "From App idea to scalable product — I help turn mobile app concepts into production-ready, revenue-generating solutions..",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/nasirayaz-small.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
@@ -23,7 +23,9 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Nasir Ayaz",
-    specialty: "Expert Mobile App Developer \n \b \t \b \b \b \b \b \b 50+ Projects Delivered \n\n\n\n\n\b\b\b\b\b\b\b\b\b\b\b 1M+ App Downloads",
+    specialty: `Expert Mobile App Developer 
+     50+ Projects Delivered
+     1M+ App Downloads`,
     summary:
       "From App idea to scalable product — I help turn mobile app concepts into production-ready, revenue-generating solutions..",
     email: "knasirayaz@gmail.com",
@@ -159,7 +161,7 @@ about: {
       
       Let’s collaborate and build your next scalable mobile product together.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/nasirayaz-big.jpg",
   },
 };
 
