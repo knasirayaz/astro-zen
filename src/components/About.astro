@@ -10,7 +10,8 @@ const { description, image, name } = Astro.props;
 
 <Section text="About Me" href="about">
   <div class="flex flex-col items-center gap-12 md:flex-row md:gap-8">
-    <p class="w-auto text-base text-neutral md:pr-5">{description}</p>
+    <!-- Added whitespace-pre-line class below to make \n work -->
+    <p class="w-auto text-base text-neutral md:pr-5 whitespace-pre-line">{description}</p>
     <div class="h-80 w-64 shrink-0 rotate-[5deg] bg-white p-4 md:rotate-[7deg]">
       <Image
         class="object-cover"
