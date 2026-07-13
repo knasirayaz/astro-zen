@@ -1,7 +1,7 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Nasir Ayaz — Mobile & Web Developer",
+  title: "Nasir Ayaz — Expert Mobile App Developer",
   author: "Nasir Ayaz",
   description:
     "From App idea to scalable product — I help turn mobile app concepts into production-ready, revenue-generating solutions..",
@@ -17,7 +17,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Github", href: "https://github.com/knasirayaz" },
   ],
   socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  canonicalURL: "https://nasirayaz.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
@@ -48,7 +48,7 @@ export const SITE_CONTENT: SiteContent = {
       company: "Tzamun Arabia IT Co",
       position: "Lead Mobile Applications Developer",
       startDate: "Dec 2022",
-      endDate: "Mar 2026",
+      endDate: "Present",
       summary: [
         "Architecture & Scale: Led the migration from a monolithic codebase to a scalable multi-module architecture, separating concerns to enable parallel team development.",
         "Performance & Stability: Resolved critical legacy bugs and optimized core features, driving the crash-free user session rate to 99.9%.",
@@ -74,7 +74,7 @@ export const SITE_CONTENT: SiteContent = {
       company: "Neusol LLC",
       position: "Senior Mobile Applications Developer",
       startDate: "Sep 2019",
-      endDate: "Nov 2021",
+      endDate: "Present",
       summary: [
         "Architected modular full-stack mobile applications utilizing cross-platform frameworks, resulting in a 35% improvement in feature release cycles.",
         "Optimized offline data synchronization mechanisms using SQLite and secure local storage, ensuring zero data loss during network disruptions.",
@@ -111,7 +111,7 @@ export const SITE_CONTENT: SiteContent = {
       ],
     },
     {
-      company: "BuraqStudios",
+      company: "Buraq Studios",
       position: "Junior Mobile Applications Developer",
       startDate: "Feb 2013",
       endDate: "Jan 2016",
@@ -137,8 +137,8 @@ export const SITE_CONTENT: SiteContent = {
       image: "/covid19.jpg",
     },
     {
-      name: "UAE TRA (Telecommunications Regulatory Authority)",
-      summary: "A social network that replicates the features of Instagram",
+      name: "TDRA (Telecommunications Regulatory Authority) UAE",
+      summary: "TDRA provides the main services in an interactive manner in order to ease the life of TDRA customers.",
       linkPreview: "/",
       linkSource: "https://play.google.com/store/apps/details?id=biz.enon.tra.uae",
       image: "/tdra.jpg",
